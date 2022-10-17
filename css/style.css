@@ -1,0 +1,409 @@
+/* ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+/* BEBAS */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+.mainSpan{
+    font-family: 'Bebas Neue', cursive;
+    background: linear-gradient(90deg, rgb(205, 50, 83) 0%, rgb(182, 120, 146) 48%, rgb(184, 33, 76) 72%,rgb(220, 118, 161) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+}
+/* 
+--------------------------------------
+-------------INDEX--------------------
+--------------------------------------
+*/
+.heroMain{
+    background-image: url(../assets/img/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    gap: 1rem;
+    padding: 2rem;
+}
+.heroCard{
+    border-radius: 10px;
+    background-color: rgba(63, 183, 253, 0.819);
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.infoMain{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nosotrosMain{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+    padding: 2rem;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.serviciosMain{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nosotrosMain p{
+    color: white;
+    font: 600;
+}
+
+.servMain{
+    background-color: rgb(210, 233, 254);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+.servInfo{
+    gap: 1.3rem;
+    margin: 2rem;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.servCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+
+
+
+.bannerMain{
+    padding: 2rem;
+    background-color: rgb(255, 87, 87);
+    display: flex;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+}
+.span2{
+    font-family: 'Bebas Neue', cursive;
+    background: linear-gradient(90deg, rgb(63, 183, 253) 0%, rgb(52, 71, 134) 48%, rgb(112, 33, 223) 72%,rgb(52, 71, 134) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+}
+.usersMain{
+    margin: 2rem;
+    text-align: center;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.usersMain h2{
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.contactoMain{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 33%;
+    text-align: center;
+    gap: 1rem;
+}
+.contactoMain ul{
+    list-style: none;
+}
+.contactoMain  li{
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.contactoMain h2{
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.ubicacionMain{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.ubicacionMain h2{
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    margin-bottom: 2rem;
+}
+.ubicacionMain iframe{
+    border-radius: 5px;
+    width: 50%;
+    height: 60%;
+}
+
+footer{
+    background-color: black;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+footer svg{
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: .7s all ease;
+    color: rgba(63, 183, 253, 0.819);
+}
+footer svg:hover{
+    color: #FF5757;
+    transform: scale(1.25);
+}
+
+/* 
+-----------------------------
+----------BUILDER------------
+-----------------------------
+*/
+
+.mainBuilder{
+    display: flex;
+    border-top: 2px solid black;
+}
+
+/* Seccion como usar */
+.comoUsarMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comoUsarMain>h2{
+    margin-top: 2rem;
+    color: black;
+    font-size: 2.4rem;
+}
+
+.comoUsarSteps{
+    height: 80%;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+.stepItem{
+    padding: 2rem;
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 2rem;
+    box-shadow: 5px 5px  20px rgb(112, 33, 223);
+}
+.stepItem>p{
+    color: black;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    width: 80%;
+}
+.faqs{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    position: relative;
+}
+.faqs>svg{
+    width: 1.5rem;
+}
+.faqs>a{
+    text-decoration: none;
+}
+.faqs>a>p{
+    transition: .4s all ease-in-out;
+    color: black;
+}
+.faqs>a>p:hover{
+    transform: scale(1.05);
+    color: #FF5757;
+}
+.faqs>a>p{
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+/* 
+-------------------CONSTRUCTOR
+*/
+
+.optMain{
+    background-color: rgba(255, 255, 255, 0.819);
+    display: flex;
+    padding: 1.5rem;
+}
+.compsList{
+    padding-right: 20px;
+    border-right: 2px solid black;
+}
+.valuePreview{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+}
+.valueItems{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.valueItems input{
+    padding: 5px;
+}
+.visorComp{
+    margin: 20px 0px;
+    width: 100%;
+    height: 80%;
+    border-left: 2px solid black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.visorComp img{
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+}
+.visorImgComp{
+    text-align: center;
+}
+.visorImgComp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.visorMain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.visorBtns{
+    background-color: #FF5757;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.8rem;
+    height: 20%;
+    align-items: center;
+    padding: 1rem;
+}
+
+.visorBtns .inBhBtn{
+    width: 8rem;
+    height: 80%;
+    padding: 10px;
+}
+
+.inBhBtn svg{
+    width: 1.5rem;
+    height: 1.2rem;
+}
+
+/* 
+------------------------
+------CONTACTO----------
+------------------------
+*/
+
+.contactMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contactInfo{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+
+.contactList ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+
+.contactInfo h2{
+    color: black;
+}
+
+.formContacto{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 33%;
+    margin: 30px;
+}
+
+.formContacto input{
+padding: 5px;
+}
+
+
+
+
+
+
