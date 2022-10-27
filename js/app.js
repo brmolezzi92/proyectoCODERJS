@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+console.log("link");
+>>>>>>> appFirst
 const USER = "demo";
 const PASSWORD = "demo123";
 
@@ -13,7 +17,13 @@ if(userChoice== 1){
         let userPass = prompt("Ingrese la contraseña");
         
         if(userLogin === USER && userPass === PASSWORD){
+<<<<<<< HEAD
             
+=======
+            seleccionBoton();
+            alert("Revisa la consola");
+            userUsing = false;
+>>>>>>> appFirst
         }else{
             alert("Usuario o contraseña incorrecta");
         }
@@ -26,3 +36,7 @@ if(userChoice== 1){
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> appFirst
