@@ -120,12 +120,6 @@ function seleccionBoton(){
     }
 }
 
-
-
-
-
-
-
 if(userChoice == 1){
     userUsing = true;
     while(userUsing){
