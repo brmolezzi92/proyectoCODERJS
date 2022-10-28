@@ -65,6 +65,7 @@ function seleccionBoton(){
                 top: 0;
                 left: -100%;
             }
+            
             button span:nth-child(2){
                 width: 100%;
                 height: 1px;
