@@ -65,6 +65,9 @@
     align-items: center;
     justify-content: center;
 }
+.nosotrosMain>h3{
+    color: white;
+}
 .serviciosMain{
     width: 50%;
     display: flex;
