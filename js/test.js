@@ -83,7 +83,7 @@ function busquedaComponentes(filtro) {
 
     } else if (filtro == "2") {
         const cards = COMPS.slice(2, 4);
-        console.log(cards)
+        
         card1 = new Component(cards[0].id, cards[0].nombre, cards[0].codeHTML, cards[0].codeCSS);
         alert(`ID: ${card1.id}\nNOMBRE: ${card1.nombre}\nHTML: ${card1.codeHTML}\nCSS: ${card1.codeCSS}\n`);
 
