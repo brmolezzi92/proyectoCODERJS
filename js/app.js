@@ -1,3 +1,6 @@
+
+console.log(Component);
+
 console.log("link");
 const USER = "demo";
 const PASSWORD = "demo123";
